@@ -1,13 +1,13 @@
-package com.gangmanstyle;
+package com.example.gangmanstyle;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class PluginLauncher
+public class RunelitePlugin
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(gangmanstylePlugin.class);
 		RuneLite.main(args);
 	}
 }

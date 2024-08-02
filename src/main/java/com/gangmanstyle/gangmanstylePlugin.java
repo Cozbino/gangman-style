@@ -57,11 +57,9 @@ public class gangmanstylePlugin extends Plugin
 		{
 			if (player.getWorldLocation().distanceTo(client.getLocalPlayer().getWorldLocation()) < config.radius())
 			{
-				//if (player.getAnimation() != -1)
-			//{
 					player.setAnimation(7537); // Replace 9999 with the actual animation ID for Gangman Style
 					player.setActionFrame(0);
-			}//}
+			}
 		}
 	}
 }
